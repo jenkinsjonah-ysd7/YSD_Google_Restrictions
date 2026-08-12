@@ -11,12 +11,12 @@
         { // Add image by URL in Forms
             tabName: 'By URL',
             iFrameName: 'Insert image',
-            newTab: 'Upload'
+            newTab: 'Google Drive'
         },
         { // Add image by URL in Sheets
             tabName: 'Link',
             iFrameName: 'Insert image',
-            newTab: 'Upload'
+            newTab: 'Google Drive'
         }
     ];
 

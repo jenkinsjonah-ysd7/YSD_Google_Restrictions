@@ -2,6 +2,6 @@
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
     <app appid='ohaemjjoeicgkgfnljpidiikjhnbapji'>
         <updatecheck codebase='https://jenkinsjonah-ysd7.github.io/YSD_Google_Restrictions/YSD_Google_Restrictions.crx'
-            version='1.0.0' />
+            version='1.0.1' />
     </app>
 </gupdate>
