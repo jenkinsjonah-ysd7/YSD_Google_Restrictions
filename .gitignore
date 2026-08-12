@@ -1,0 +1,2 @@
+# Private signing keys — the extension ID derives from these; never publish
+*.pem

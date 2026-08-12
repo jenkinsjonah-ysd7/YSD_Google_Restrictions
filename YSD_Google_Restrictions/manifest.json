@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "YSD Google Restrictions",
+    "version": "1.0.0",
+    "description": "Hides certain page elements to reduce student distractions.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/search*"],
+            "js": ["hide-search-heading.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "https://classroom.google.com/*",
+                "https://docs.google.com/forms/*",
+                "https://docs.google.com/presentation/*",
+                "https://docs.google.com/spreadsheets/*",
+                "https://docs.google.com/document/*"
+            ],
+            "js": ["hide-simple-element.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": ["https://docs.google.com/picker*"],
+            "js": ["hide-iframe-option.js"],
+            "run_at": "document_start",
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "https://docs.google.com/presentation/*",
+                "https://docs.google.com/document/*",
+                "https://www.google.com/search*"
+            ],
+            "js": ["hide-closest-element.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
