@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='https://www.google.com/update2/response' protocol='2.0'>
+    <app appid='kneippedfjfpceaghkocdehklhcacihk'>
+        <updatecheck codebase='https://github.com/jenkinsjonah-ysd7/YSD_Google_Restrictions/blob/main/YSD_Google_Restrictions.crx'
+            version='1.0.0' />
+    </app>
+</gupdate>
